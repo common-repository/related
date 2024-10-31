@@ -1,0 +1,86 @@
+<html>
+<head>
+</head>
+
+<style>
+#main {
+	height: 250px;
+	width: 772px;
+	background-image: -moz-linear-gradient(top, #f9b758, #fb9d18);
+	background-image: -webkit-linear-gradient(top, #f9b758, #fb9d18);
+	background-image: linear-gradient(top, #f9b758, #fb9d18);
+	position: relative;
+	margin: 100px 50px 0 0;
+	color: #fff;
+}
+
+#post {
+	position: absolute;
+	top: 36px;
+	left: 270px;
+	font-size: 18px;
+	padding: 7px 12px;
+	border-radius: 5px;
+	background: none repeat scroll 0% 0% rgba(30, 30, 30, 0.9);
+}
+
+#rels {
+	position: absolute;
+	top: 45px;
+	right: 60px;
+}
+p.rel {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding: 6px 10px;
+	border-radius: 4px;
+	background: none repeat scroll 0% 0% rgba(30, 30, 30, 0.9);
+}
+
+#hor_line {
+	position: absolute;
+	width: 328px;
+	height: 2px;
+	background: none repeat scroll 0% 0% rgba(30, 30, 30, 0.9);
+	top: 72px;
+	left: 331px;
+}
+.vert_line {
+	position: absolute;
+	width: 2px;
+	height: 17px;
+	background: none repeat scroll 0% 0% rgba(30, 30, 30, 0.9);
+	right: 85px;
+}
+.vert_line_1 {
+	top: 89px;
+}
+.vert_line_2 {
+	top: 131px;
+}
+.vert_line_3 {
+	top: 177px;
+}
+
+</style>
+
+<body>
+	<div id="main">
+		<p id="post">$post</p>
+
+		<div id="rels">
+			<p class="rel">$post</p>
+			<p class="rel">$post</p>
+			<p class="rel">$post</p>
+			<p class="rel">$post</p>
+		</div>
+
+		<div id="hor_line"></div>
+
+		<div class="vert_line vert_line_1"></div>
+		<div class="vert_line vert_line_2"></div>
+		<div class="vert_line vert_line_3"></div>
+
+	</div>
+</body>
